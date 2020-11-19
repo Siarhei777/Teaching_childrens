@@ -1,0 +1,34 @@
+/*******************************************************************************************************/
+/*****************************************global styles*************************************************/
+/*******************************************************************************************************/
+.main_body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f0ec;
+
+  overflow: hidden;
+  font-family: "Roboto-Regular", Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+@keyframes light {
+  0% {
+    color: white;
+    text-shadow: 2px 2px 1px black;
+  }
+  50% {
+    color: #ffc;
+    text-shadow: 0 0 0.1em, 0 0 0.3em;
+  }
+  100% {
+    color: white;
+    text-shadow: 2px 2px 1px black;
+  }
+}

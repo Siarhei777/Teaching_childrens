@@ -1,0 +1,166 @@
+/*******************************************************************************************************/
+/******************************************aside styles*************************************************/
+/*******************************************************************************************************/
+aside {
+    width: 14%;
+    height: 83vmin;
+}
+.aside2 {
+    width: 100%;
+    height: auto;
+    background-color: #EBECF0;
+    border: 2px solid #5c8dae;
+    box-shadow: 3px 3px 5px #5c8dae;
+}
+.aside2 form {
+    font-family: 'Montserrat-Regular', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    cursor: not-allowed;
+}
+.aside2 form button,
+.aside2 form input[type="text"],
+.aside2 form input[type="radio"],
+.aside2 form .short_input {
+    cursor: pointer;
+}
+.aside2 form p,
+.aside2 form input,
+.aside2 form select,
+.aside2 form textarea,
+.aside2 form button {
+    font-family: 'Montserrat-Regular', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: calc(0.5rem + 0.5vw);
+}
+.aside2 form div,
+.aside2 form p {
+    color: #BABECC;
+    color: black;
+    text-shadow: 1px 1px 1px #FFF;
+    text-align: center;
+}
+.aside2 form .segment {
+    padding: 0.5vw 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.aside2 form .segment h2 {
+    font-size: calc(0.1rem + 1vw);
+    color: #AE1100;
+}
+.aside2 form .segment .short_input {
+    width: 30%;
+    font-size: calc(0.3rem + 0.5vw);
+}
+.aside2 form .segment:first-child,
+.aside2 form .segment .last_segment {
+    border-bottom: 0.3vmin solid #AE1100;
+    margin: 0 auto 1vmin;
+    width: 98%;
+}
+.aside2 form .last_segment {
+    border-bottom: 0.3vmin solid #AE1100;
+    margin: 0 auto 0.5vmin;
+    width: 98%;
+}
+.aside2 form button,
+.aside2 form input {
+    border: 0;
+    outline: 0;
+    font-size: calc(0.3rem + 0.5vw);
+    border-radius: 20rem;
+    padding: 0.5vw;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+    text-align: center;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+.aside2 form label {
+    display: block;
+    width: 50%;
+}
+.aside2 form input:not([type='radio']) {
+    margin: 0;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 70%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+}
+.aside2 form input:not([type='radio']):focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+.aside2 form button {
+    color: #61677C;
+    font-family: Montserrat-Bold;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+}
+.aside2 form button:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+.aside2 form button:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+.aside2 form button .icon {
+    margin-right: calc(0.25rem + 1vw);
+}
+.aside2 form button.unit {
+    border-radius: 20%;
+    line-height: 0;
+    width: calc(0.7rem + 1vw);
+    height: calc(0.7rem + 1vw);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0.5rem + 1vw);
+}
+.aside2 form button.unit .icon {
+    margin-right: 0;
+}
+.aside2 form button.unit:first-child {
+    background: url('../../assets/images/ion-md-arrow-back.svg') no-repeat center center / 80%;
+}
+.aside2 form button.unit:last-child {
+    background: url('../../assets/images/ion-md-arrow-forward.svg') no-repeat center center / 80%;
+}
+.aside2 form button.red {
+    display: block;
+    width: 80%;
+    color: #AE1100;
+    margin: 1vmin auto 0.5vw;
+}
+.aside2 form .long_input {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+.aside2 form .long_input input {
+    width: 60%;
+}
+.aside2 form .long_input #childrens {
+    width: calc(1.3rem + 1vw);
+    height: calc(1.3rem + 1vw);
+    background: url('../../assets/images/child.png') no-repeat center center / 80%;
+}
+.aside2 form .long_input #parents {
+    width: calc(1.3rem + 1vw);
+    height: calc(1.3rem + 1vw);
+    background: url('../../assets/images/par.png') no-repeat center center / 80%;
+}
+.aside2 form input[type="number"] {
+    cursor: not-allowed;
+}
+.aside2 form input[type="number"]:hover {
+    cursor: not-allowed;
+}
+/*******************************************************************************************************/
+/****************************************End aside styles***********************************************/
+/*******************************************************************************************************/
