@@ -4,7 +4,7 @@
 main {
     width: 70%;
     height: 83vmin;
-    background-image: url('../../assets/images/dask_new.png');
+    background-image: url(../../assets/images/dask_new.png);
     background-size: 100% 70%;
     background-repeat: no-repeat;
   }

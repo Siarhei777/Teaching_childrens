@@ -5,16 +5,29 @@ import './assets/css/App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
+import AboutProject from './components/AboutProject/AboutProject';
+import Help from './components/Help/Help';
+import News from './components/News/News';
+import Contacts from './components/Contacts/Contacts';
+import Donat from './components/Donat/Donat';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 const App = () => {
   return (
-    <div className="main_body">
-      <Header />
-      <Aside1 />
-      <Main />      
-      <Aside2 />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="main_body">
+        <Header />
+        <Aside1 />
+        <Main />
+        <Route path = '/aboutproject' component = {AboutProject} />
+        <Route path = '/help' component = {Help} />
+        <Route path = '/news' component = {News} />
+        <Route path = '/contacts' component = {Contacts} />
+        <Route path = '/donat' component = {Donat} />
+        <Aside2 />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

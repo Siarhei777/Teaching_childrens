@@ -14,6 +14,7 @@ header {
     border: 2px solid #5c8dae;
     box-shadow: 3px 3px 5px #5c8dae;
     margin-bottom: 1vmin;
+    cursor: not-allowed;
   }
   header img {
     height: 100%;
@@ -30,7 +31,7 @@ header {
   header nav {
     width: 70%;
   }
-  header nav .main_navigation {
+  header nav .main_navigation, a {
     text-decoration: none;
     list-style-type: none;
     display: flex;
@@ -41,12 +42,18 @@ header {
     font-size: calc(0.3rem + 1vw);
     text-shadow: 2px 2px 1px black;
   }
-  header nav .main_navigation li:hover {
+
+  header nav .main_navigation li:hover, a:hover {
     cursor: pointer;
+    text-shadow: 5px 5px 5px black;
+  }
+
+  .activeLink {
     color: #ffc;
     text-shadow: 0 0 0.1em, 0 0 0.3em;
     animation: linear 1.2s light infinite;
   }
+
   header .site_legend {
     display: block;
     width: calc(0.5rem + 7vmin);
