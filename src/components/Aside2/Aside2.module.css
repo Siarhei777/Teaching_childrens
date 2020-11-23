@@ -99,6 +99,7 @@ aside {
     font-family: Montserrat-Bold;
     box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
     transition: all 0.2s ease-in-out;
+
 }
 .aside2 form button:hover {
     box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
@@ -145,12 +146,12 @@ aside {
 .aside2 form .long_input input {
     width: 60%;
 }
-.aside2 form .long_input #childrens {
+#childrens {
     width: calc(1.3rem + 1vw);
     height: calc(1.3rem + 1vw);
     background: url('../../assets/images/child.png') no-repeat center center / 80%;
 }
-.aside2 form .long_input #parents {
+#parents {
     width: calc(1.3rem + 1vw);
     height: calc(1.3rem + 1vw);
     background: url('../../assets/images/par.png') no-repeat center center / 80%;

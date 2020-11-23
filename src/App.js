@@ -5,11 +5,11 @@ import './assets/css/App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
-import AboutProject from './components/AboutProject/AboutProject';
-import Help from './components/Help/Help';
-import News from './components/News/News';
-import Contacts from './components/Contacts/Contacts';
-import Donat from './components/Donat/Donat';
+import AboutProject from './components/Header/AboutProject/AboutProject';
+import Help from './components/Header/Help/Help';
+import News from './components/Header/News/News';
+import Contacts from './components/Header/Contacts/Contacts';
+import Donat from './components/Header/Donat/Donat';
 import {BrowserRouter, Route} from 'react-router-dom';
 
 const App = () => {

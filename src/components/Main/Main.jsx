@@ -1,5 +1,8 @@
 import React from 'react';
 import style from './Main.module.css';
+import ParentsPhoto from './ParentsPhoto/ParentsPhoto';
+import ChildrenPhoto from './ChildrenPhoto/ChildrenPhoto';
+import StartButton from './StartButton/StartButton';
 
 const Main = () => {
     return (
@@ -8,15 +11,9 @@ const Main = () => {
 
             </div>
             <div className = {style.container_main2}>
-                <div className = {style.border_container}>
-                    <img src="/../../assets/images/woman.png" alt="parents" />
-                </div>
-
-                <button className = {style.main_button}>НАЧАТЬ ОБУЧЕНИЕ</button>
-
-                <div className = {style.border_container}>
-                    <img src="/../../assets/images/girl.png" alt="childrens" />
-                </div>
+                <ParentsPhoto />
+                <StartButton />
+                <ChildrenPhoto />
             </div>
         </main>
     );

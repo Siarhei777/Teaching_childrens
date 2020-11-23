@@ -1,5 +1,10 @@
 import React from 'react';
 import style from './Footer.module.css';
+import Facebook from './Facebook/Facebook';
+import Twitter from './Twitter/Twitter';
+import Linkedin from './Linkedin/Linkedin';
+import Youtube from './Youtube/Youtube';
+import Telegram from './Telegram/Telegram';
 
 const Footer = () => {
     return (
@@ -9,11 +14,11 @@ const Footer = () => {
                 <span>Разработчик и владелец сайта: Жоров Сергей</span>
             </div>
             <div className = {style.container2}>
-                <img src="/assets/images/soc1.png" alt="Фэйсбук" className = {style.img} />
-                <img src="/assets/images/soc2.png" alt="Твиттер" className = {style.img} />
-                <img src="/assets/images/soc3.png" alt="Linkedin" className = {style.img} />
-                <img src="/assets/images/soc4.png" alt="Ютуб" className = {style.img} />
-                <img src="/assets/images/soc5.png" alt="Телеграм" className = {style.img} />
+                <Facebook />
+                <Twitter />
+                <Linkedin />
+                <Youtube />
+                <Telegram />
             </div>
         </footer>
     );

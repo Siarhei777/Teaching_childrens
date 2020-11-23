@@ -15,23 +15,28 @@ header {
     box-shadow: 3px 3px 5px #5c8dae;
     margin-bottom: 1vmin;
     cursor: not-allowed;
-  }
-  header img {
+}
+
+header .container_image {
+    height: 100%;
+}
+
+header img {
     height: 100%;
     width: auto;
     border-radius: 50%;
-  }
-  header h1 {
+}
+header h1 {
     width: 70%;
     text-align: center;
     font-size: calc(2rem + 1vw);
     color: white;
     text-shadow: 0 1px hsl(0, 0%, 85%), 0 2px hsl(0, 0%, 80%), 0 3px hsl(0, 0%, 75%), 0 4px hsl(0, 0%, 70%), 0 4px 10px black;
-  }
-  header nav {
+}
+header nav {
     width: 70%;
-  }
-  header nav .main_navigation, a {
+}
+header nav .main_navigation, a {
     text-decoration: none;
     list-style-type: none;
     display: flex;
@@ -41,32 +46,32 @@ header {
     color: white;
     font-size: calc(0.3rem + 1vw);
     text-shadow: 2px 2px 1px black;
-  }
+}
 
-  header nav .main_navigation li:hover, a:hover {
+header nav .main_navigation li:hover, a:hover {
     cursor: pointer;
     text-shadow: 5px 5px 5px black;
-  }
+}
 
-  .activeLink {
+.activeLink {
     color: #ffc;
     text-shadow: 0 0 0.1em, 0 0 0.3em;
     animation: linear 1.2s light infinite;
-  }
+}
 
-  header .site_legend {
+header .site_legend {
     display: block;
     width: calc(0.5rem + 7vmin);
     height: calc(0.5rem + 7vmin);
     font-size: 0.8rem;
     background-color: #fff;
     overflow: visible;
-  }
-  header .site_legend svg {
+}
+header .site_legend svg {
     display: block;
     overflow: visible;
-  }
-  header .site_legend img {
+}
+header .site_legend img {
     position: relative;
     top: -7.5vmin;
     left: 0.5vmin;
@@ -74,8 +79,7 @@ header {
     height: 7vmin;
     border-radius: 50%;
     z-index: 100;
-  }
-  /*******************************************************************************************************/
-  /****************************************End header styles**********************************************/
-  /*******************************************************************************************************/
-  
+}
+/*******************************************************************************************************/
+/****************************************End header styles**********************************************/
+/*******************************************************************************************************/
